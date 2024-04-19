@@ -1,0 +1,11 @@
+---
+version: "3"
+
+services:
+  www:
+    build: .
+    volumes:
+      - .:/src
+    ports:
+      - 8080:9292
+
